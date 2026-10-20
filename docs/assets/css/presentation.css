@@ -821,10 +821,10 @@ html {
   background: #fff;
   border: 1px solid #e2e5e7;
   border-radius: 16px;
-  padding: 16px 16px 14px;
+  padding: 18px 18px 16px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
   min-width: 0;
 }
 .model-tier--balanced {
@@ -832,31 +832,54 @@ html {
   box-shadow: 0 8px 24px #f16b3a10;
   background: linear-gradient(180deg, #fffaf6 0%, #fff 45%);
 }
-.model-tier-label {
-  font-size: 11px;
+.model-reasoning-pill {
+  font-size: 10px;
   font-weight: 850;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--orange);
+  color: #7a8a9c;
 }
-.model-tier-vendors p {
-  margin: 0 0 4px;
-  font-size: 11px;
-  line-height: 1.4;
-  color: #4a5a6c;
+.model-tier--fast .model-reasoning-pill {
+  color: #496bad;
 }
-.model-tier-list {
+.model-tier--balanced .model-reasoning-pill {
+  color: #c75b2c;
+}
+.model-tier--deep .model-reasoning-pill {
+  color: #3d657f;
+}
+.model-names {
+  margin: 2px 0 4px;
+}
+.model-name {
   margin: 0;
-  padding-left: 16px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+.model-name--claude {
+  font-size: clamp(28px, 3.2vw, 40px);
+  font-weight: 850;
+  color: var(--navy);
+}
+.model-name--openai {
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #6b7b8d;
+}
+.model-purpose {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--ink);
+}
+.model-filter-use {
+  margin: 0;
   font-size: 11.5px;
   line-height: 1.45;
   color: var(--ink2);
-}
-.model-tier-disclaimer {
-  margin: 12px 0 0;
-  font-size: 10.5px;
-  line-height: 1.45;
-  color: #6b7b8d;
+  padding-top: 8px;
+  border-top: 1px solid #eef1f4;
 }
 .effort-band {
   margin-top: 14px;
@@ -877,13 +900,6 @@ html {
   font-style: normal;
   font-size: 18px;
 }
-.effort-band-note {
-  margin: 8px 0 0;
-  font-size: 10.5px;
-  line-height: 1.45;
-  color: #6b7b8d;
-  text-align: center;
-}
 .model-rule-banner {
   margin-top: 14px;
   padding: 14px 16px;
@@ -897,34 +913,8 @@ html {
   font-weight: 820;
   color: var(--navy);
 }
-.filter-task-examples {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-  margin-top: 12px;
-  width: 100%;
-}
-.filter-task-examples > div {
-  background: #fff;
-  border: 1px solid #e2e5e7;
-  border-radius: 11px;
-  padding: 11px 12px;
-}
-.filter-task-examples b {
-  display: block;
-  font-size: 11px;
-  line-height: 1.35;
-  margin-bottom: 6px;
-}
-.filter-task-examples span {
-  font-size: 10px;
-  font-weight: 800;
-  color: #c75b2c;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
 .model-fineprint {
-  margin-top: 10px;
+  margin-top: 12px;
   text-align: center;
 }
 @media (max-width: 960px) {
@@ -938,8 +928,7 @@ html {
   .llm-intro-aside .mascot {
     max-width: 120px;
   }
-  .model-tier-grid,
-  .filter-task-examples {
+  .model-tier-grid {
     grid-template-columns: 1fr;
   }
   .llm-io-grid {
