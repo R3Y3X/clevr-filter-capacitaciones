@@ -12,11 +12,20 @@ Material de la guía **Claude para el trabajo diario** y kit hands-on para clien
 | [`scripts/build-kit-zip.sh`](scripts/build-kit-zip.sh) | Regenera el ZIP del kit en `docs/downloads/` |
 | [`Clevr-Filter-Claude101-PRESENTACION.html`](Clevr-Filter-Claude101-PRESENTACION.html) | Versión monolítica anterior (referencia) |
 
-## Publicar en GitHub Pages
+## Sitio publicado (GitHub Pages)
 
-1. En GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch**.
-2. Branch: `main`, folder: **`/docs`**.
-3. Tras el deploy, la URL será `https://<usuario>.github.io/<repositorio>/`.
+- **Repositorio:** [github.com/R3Y3X/clevr-filter-capacitaciones](https://github.com/R3Y3X/clevr-filter-capacitaciones)
+- **Guía en vivo:** [r3y3x.github.io/clevr-filter-capacitaciones/](https://r3y3x.github.io/clevr-filter-capacitaciones/)
+
+Pages está configurado con rama `main` y carpeta **`/docs`**.
+
+### Republicar cambios
+
+```bash
+git add -A && git commit -m "Actualizar capacitación" && git push origin main
+```
+
+El deploy suele tardar 1–3 minutos.
 
 ## Regenerar el ZIP del hands-on
 
