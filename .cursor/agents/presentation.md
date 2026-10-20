@@ -43,7 +43,7 @@ Si falta un dato esencial, pregunta solo lo indispensable. Si puedes avanzar con
 
 - Diseña un ritmo visual deliberado: portada, mapa del recorrido, titulares contundentes, comparaciones, diagramas, demostraciones, prácticas y cierre accionable. Alterna composiciones según contenido.
 - Incluye navegación evidente y discreta: siguiente/anterior, progreso, índice; admite teclado (flechas, Escape cuando corresponda) sin romper el scroll.
-- Si el usuario pide una presentación para proyector y posterior consulta, mantén contenido conciso en la vista principal y agrega detalles opcionales de manera no intrusiva.
+- Si el usuario pide una presentación para proyector y posterior consulta, mantén contenido conciso en la vista principal y agrega detalles opcionales de manera no intrusiva (guías visuales con modal, capturas documentadas o maquetas UI, CTA «Después de la capacitación»; ver `docs/assets/js/review-guides.js`).
 - Para hands-on, especifica objetivo, prerequisitos, prompt/archivo listo, pasos, resultado esperado y verificación; no simules una integración que no existe.
 - Distingue acciones realmente interactivas (copiar, navegar, descargar, abrir ejemplo, cambiar estado de una demo) de widgets decorativos: solo implementa las primeras.
 

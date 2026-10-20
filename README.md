@@ -8,6 +8,7 @@ Material de la guía **Claude para el trabajo diario** y kit hands-on para clien
 |------|-------------|
 | [`docs/`](docs/) | Sitio estático publicado en GitHub Pages (HTML, CSS y JS vanilla) |
 | [`docs/assets/css/marca-clevr.css`](docs/assets/css/marca-clevr.css) | Tokens y overrides de marca Clevr (skill `marca-clevr`) |
+| [`docs/assets/js/review-guides.js`](docs/assets/js/review-guides.js) | Guías visuales post-capacitación (p. ej. Skills en Claude) |
 | [`docs/downloads/Kit-Demo-Filter-Clevr.zip`](docs/downloads/Kit-Demo-Filter-Clevr.zip) | Kit empaquetado para descarga desde la guía |
 | [`Kit-Demo-Filter-Clevr/`](Kit-Demo-Filter-Clevr/) | Fuente del kit (carpetas `01_project` … `07_clevito_transparentes`) |
 | [`scripts/build-kit-zip.sh`](scripts/build-kit-zip.sh) | Regenera el ZIP del kit en `docs/downloads/` |
