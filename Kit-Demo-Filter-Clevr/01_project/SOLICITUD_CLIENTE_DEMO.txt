@@ -1,0 +1,7 @@
+ASUNTO: Solicitud de orientación técnica — línea hidráulica
+
+Hola, necesitamos orientación para un filtro de una línea hidráulica de 40 L/min, presión de 180 bar y filtración nominal de 10 micras. La conexión y el tipo de sello aún están por definir. Nos gustaría conocer opciones preliminares y qué datos les debemos confirmar.
+
+Saludos, Equipo Compras Mina Andina (empresa ficticia).
+
+*Todos los datos de este ejercicio son ficticios.*

@@ -1,0 +1,7 @@
+﻿codigo,familia,caudal_max_lpm,presion_max_bar,micraje_um,medio_filtrante,conexion,observacion,ficha_referencia
+FH-100,Hidráulico en línea,80,315,10,Fibra de vidrio,3/4 NPT,Elemento demo hidráulico,CAT-01
+FH-120,Hidráulico en línea,65,350,5,Fibra de vidrio,1 NPT,Elemento demo hidráulico fino,CAT-02
+FR-200,Hidráulico retorno,120,25,10,Celulosa,1 BSP,Solo baja presión,CAT-03
+FA-300,Aire comprimido,100,16,1,Microfibra,1/2 NPT,No usar en aceite hidráulico,CAT-04
+FS-400,Hidráulico en línea,45,210,10,Malla metálica,3/4 NPT,Dato de compatibilidad de sellos ausente,CAT-05
+FH-220,Hidráulico en línea,35,250,10,Fibra de vidrio,1 BSP,Caudal bajo para solicitud de 40 L/min,CAT-06

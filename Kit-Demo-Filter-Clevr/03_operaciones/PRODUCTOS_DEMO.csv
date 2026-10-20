@@ -1,0 +1,7 @@
+﻿sku,descripcion,stock_inicial,stock_minimo
+FH-100,Filtro hidráulico línea demo,12,10
+FH-120,Filtro hidráulico fino demo,8,5
+FR-200,Filtro retorno demo,20,8
+FA-300,Filtro aire demo,7,6
+FS-400,Filtro hidráulico malla demo,9,5
+FH-220,Filtro hidráulico compacto demo,6,4
